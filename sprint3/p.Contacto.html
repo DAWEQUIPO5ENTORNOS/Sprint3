@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es-ES"> <!-- Idioma. -->
+  <head>
+    <meta charset="utf-8"> <!-- Codificación. -->
+    <meta name="description" content="Página de contacto"> <!-- Descripción de la página -->
+    <meta name="author" content="Camilo y Pablo"> <!-- Autor de esta parte -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Compatibilidad -->
+    <link rel="stylesheet" href="pcontacto.css" />
+    <title>pagina contacto</title>
+  </head>
+  <body>
+    <div class="header">
+    <h1>DAW F.C: Página de contacto</h1>
+
+    </div>
+
+    <nav id="menu">
+      <ul>
+        <li><a href="index.html">DAW F.C. </a></li>
+        <li><a href="aboutUs.html">About us</a>
+        <li><a href="servicos.html">Productos y servicios del club</a></li>
+        <li><a href="p.Contacto.html">Página de contacto</a></li>
+        <li><a href="Novedades.html">Novedades</a></li>
+        <li><a href="agradecimientos.html">Agradecimientos</a></li>
+      </ul>
+      </nav>
+    <div class="texto">
+    <p>
+      Si quiere información sobre nuestro equipo rellena nuestro formulario y nos pondremos en contacto con usted.
+      <p></p><b>Telefono de contacto:</b> +34 675 56 34 23</p>
+      
+      <p></p><b>Sede central del equipo:</b> Pl. Virgen Milagrosa, 11, 29017 Málaga</p>
+      
+      <b>Administración:</b> EquipoCesurDaw@cesurformacion.com
+    </p>
+  
+    <title>Maps</title>
+    <div class="header"> <h1>Contacto </h1> </div>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1901.6098821413011!2d-4.365875338554386!3d36.719826469703655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7259120bfc4db3%3A0xec0ecedd8dc61902!2sCesur%20M%C3%A1laga%20Este%20-%20Formaci%C3%B3n%20Profesional!5e0!3m2!1ses!2ses!4v1634026951793!5m2!1ses!2ses"
+     width="50%" height="70%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+    <div class="container">
+    <form>
+      <div class="row">
+      <label for="nombre"> Nombre:</label>
+      </div>
+      <div class="row">
+      <input type="text"placeholder="&#128123" />
+      </div>      
+      <div class="row">
+     <label for="telefono">Teléfono:</label>
+      </div>
+      <div class="row">
+      <input type="number" placeholder="&#x1F4DE"/> <!--se pueden usar letras y números-->
+      </div> 
+      <div class="row">
+      <label for="email">Email:</label>
+      </div>
+      <div class="row">
+      <input type="text" placeholder="&#128233"/>
+      </div>
+    
+
+      <div class="tooltip"><p><span class="motivo">Motivo de consulta:</span><span class="tooltiptext">Si tiene otro motivo de consulta llame al número de teléfono</span></p></div>
+      <p><select name="Motivo_de_consulta"><p>
+        <option value="opcion1">Inscripción</option>
+        <option value="opcion2">Solicitud de carnet</option>
+        <option value="opcion3">Solicitud de camiseta</option>
+        <option value="opcion4">Reserva de entradas</option>
+      </select></p>
+
+      <p>Sexo:</p>
+      <p><input type="radio" id="mujer" name="sexo" value="Mujer" />
+      <label for="Mujer">Mujer</label></p>
+      <p></p>
+      <input type="radio" id="hombre" name="sexo" value="Hombre" />
+      <label for="Hombre">Hombre</label></p>
+      Texto:
+      <textarea name="area_texto" rows="5" cols="50"placeholder="&#128269"></textarea>
+      <button type="reset" class="button">Borrar</button>
+      <button type="submit" class="button">Enviar</button>
+      
+    </form>
+  </div>
+ </div>
+<p><form name="formulario" method="post" action="/send.php">
+<div class="row">
+
+   Usuario: 
+</div>
+
+  <input type="text" name="nombre" placeholder="Por ejemplo, Alonso" minlength="8" maxlength="40" required />
+   </p>      
+  
+  <div class="row">
+  Password:
+  </div>
+     
+  <input type="password" name="pass" placeholder="Contraseña"
+         minlength="8" required />
+   
+        </form>  
+     <p></p>
+     Datos del jugador:
+         <form name="formulario" method="post" action="/send.php">
+          
+          <input type="text" name="nombre" placeholder="Nombre del jugador"
+                 minlength="5" maxlength="40" required pattern="[A-Za-z0-9]+" />
+      </form>
+         
+      <form name="formulario" method="post" action="/send.php">
+        
+        <input type="text" name="nombre" placeholder="Equipo del jugador"
+               required pattern="[A-Za-z0-9]{5,40}"
+               title="Letras y números. Tamaño mínimo: 5. Tamaño máximo: 40" />
+    </form>
+
+    <form name="formulario" >
+
+      <input type="text" name="coche" placeholder="Número del jugador"
+             required pattern="(1|2|3|4|5|6|7|8|9|10|11|12|13|14|15)"
+             title="Números posibles: 1, 3, 4 y 15" />
+      
+<p><input type="checkbox"
+             id="acepto"
+             name="terminos_servicios"
+             value="acepto"
+      <label for="acepto">Acepto los <a href="https://www.youtube.com/watch?v=U-LV6Ifvuco&ab_channel=KL4_YT">términos y servicios</a></label></p>
+      
+<button type="submit" class="button">Log In</button>
+</div>
+ </form>
+ <footer>
+  <h4> DAW F.C. &copy;</h4> <!-- Página registrada con copyright. -->
+  </footer>
+</body>
+  </html>
