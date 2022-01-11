@@ -10,18 +10,9 @@
     <!-- Autor de esta parte -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Compatibilidad -->
-<<<<<<< HEAD
     
     <link rel="stylesheet" href="aboutUs.css" />.
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-=======
-    <link rel="stylesheet" href="aboutUs.css" />
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-
->>>>>>> 5bfa3c9a4d603fafffaa9ebcc1205a690b8ac713
+    
     <title>aboutUs</title>
   </head>
   <body>
@@ -30,7 +21,8 @@
       
   </div>
     <!--"Añadir los enlaces de los demás apartados"-->
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -39,7 +31,7 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="Index.html">Página Principal</a>
+            <a class="nav-link" href="./Index.html">Página Principal</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./aboutUs.html">Sobre nosotros</a>
@@ -61,57 +53,57 @@
     </div>
   </nav>
 
+  <div class="flex-container">
+    <div>
+      <div class="texto">
+        <p id="borderbottom">
+          Este club se formó con el sueño de ser el mejor club de fútbol de CESUR
+          Málaga Este, con esta meta en mente se escogió a jugadores con gran
+          talento y aptitud, que compartan la misma ambición y hambre de victoria
+          que la directiva.
+        </p>
+      </div>
+    </div>
 
-
-
-
-
-
-
-
+    <div>
+      <div class="texto">
+        <h1 class="header">La Directiva</h1>
+        <p>
+          <b>Manu</b>, nuestro presidente, ha arruinado ya tres clubes en lo que va
+          de temporada y se ha propuesto hacer un trabajo igual de minucioso con
+          este.
+        </p>
     
-    <div class="texto">
-    <p id="borderbottom">
-      Este club se formó con el sueño de ser el mejor club de fútbol de CESUR
-      Málaga Este, con esta meta en mente se escogió a jugadores con gran
-      talento y aptitud, que compartan la misma ambición y hambre de victoria
-      que la directiva.
-    </p>
+        <p>
+          <b>Camilo</b> como director técnico no es que tenga mucha experiencia,
+          pero lo pone ganas y nuestro presidente opina: "Eso es más que
+          suficiente".
+        </p>
+      </div>
+    </div>
+        <div class="texto">
+          <p>
+            <b>Pablo</b> es un máquina. Nadie sabe que es lo que hace en el club, pero
+            lo hace bien.
+          </p>
+          <p>
+            <b>Juan</b> está todo el día subiendo y bajando, entre que sube a la
+            azotea a fumar y baja al bar... Trabajar, lo que es trabajar, no es que lo
+            haga mucho pero tambien le pone espíritu.
+          </p>
+          <p>
+            <b>Miguel</b> es el director deportivo del club. Es el mejor, no se puede
+            decir más.
+          </p>
+        </div>
+    <div>
 
-    <h1 class="header">La Directiva</h1>
-    <p>
-      <b>Manu</b>, nuestro presidente, ha arruinado ya tres clubes en lo que va
-      de temporada y se ha propuesto hacer un trabajo igual de minucioso con
-      este.
-    </p>
 
-    <p>
-      <b>Camilo</b> como director técnico no es que tenga mucha experiencia,
-      pero lo pone ganas y nuestro presidente opina: "Eso es más que
-      suficiente".
-    </p>
+    </div>  
+  </div>
 
-    <p>
-      <b>Pablo</b> es un máquina. Nadie sabe que es lo que hace en el club, pero
-      lo hace bien.
-    </p>
-    <p>
-      <b>Juan</b> está todo el día subiendo y bajando, entre que sube a la
-      azotea a fumar y baja al bar... Trabajar, lo que es trabajar, no es que lo
-      haga mucho pero tambien le pone espíritu.
-    </p>
-    <p>
-      <b>Miguel</b> es el director deportivo del club. Es el mejor, no se puede
-      decir más.
-    </p>
-    <img
-      src="Equipo 5.jpg"
-      width="420"
-      height="315"
-      alt="foto equipo"
-    />
-
-    <h1 class="header">Horario</h1>
+    <div>
+      <h1 class="header">Horario</h1>
     <!--"Aqui va la tabla"-->
     <div style="overflow-x: auto;">
     <table id="bordeRedondo">
@@ -147,7 +139,16 @@
         <td>No hay</td>
       </tr>
     </table>
+      </div>
+    </div>  
+  <div>
   </div>
+
+    
+    
+    
+
+    
 
     <!--"imagenes del club y video"-->
     <h1 class="header">Nuestras instalaciones:</h1>
@@ -201,18 +202,15 @@
    
   </div>
  
-  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
     
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
       <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
       <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
     </div>
-    
+  
     
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -234,17 +232,16 @@
         <img src="aseos.jpg" alt="Estas son los aseos del equipo" class="d-block w-100">
     </div>
     </div>
+  
     
-   
     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
       <span class="carousel-control-prev-icon"></span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
       <span class="carousel-control-next-icon"></span>
     </button>
-  </div> 
-  
-  
+
+  </div>
   </body>
   <footer>
     <h4> DAW F.C. &copy;</h4> <!-- Página registrada con copyright. -->
