@@ -12,7 +12,8 @@
     <!-- Compatibilidad -->
     
     <link rel="stylesheet" href="aboutUs.css" />
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>aboutUs</title>
   </head>
   <body>
@@ -21,15 +22,35 @@
       
   </div>
     <!--"Añadir los enlaces de los demás apartados"-->
-    <nav id="menu"> 
-      <ul>
-        <li> <a href="Index.html"> Pagina principal </a></li>
-        <li> <a href="./aboutUs.html"> About Us</a></li>
-        <li><a href="servicos.html">Productos y servicios del club</a></li>  
-        <li> <a href="./p.Contacto.html">Página de contacto</a></li> 
-        <li> <a href="./Novedades.html">Novedades</a></li>
-        <li> <a href="./agradecimientos.html">Agradecimientos</a></li>
-      </ul>
+    
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./Index.html">Página Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./aboutUs.html">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./servicos.html">Productos y servicios</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" href="./Contacto.html">Contacto</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="./Novedades.html">Novedades</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="./agradecimientos.html">Agradecimientos</a>
+          </li>   
+        </ul>
+      </div>
+    </div>
   </nav>
    
     
