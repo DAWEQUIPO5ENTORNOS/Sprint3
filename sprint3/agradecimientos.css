@@ -35,7 +35,6 @@ body{
 }
 
 .texto{
-  /*color:rgb(229, 233, 30);*/
   color: black;
   text-align: center;
   text-decoration:none;
@@ -53,11 +52,7 @@ body{
   font-family:"Verdana", "Verdana", Helvetica, Arial, sans-serif;
   letter-spacing:10%;
 }
-/*@media screen and (max-width: 992px) {
-    .column {
-      width: 50%;
-    }
-  }*/
+
   #menu {
     text-align: center;
     height: 20%;  
@@ -72,10 +67,8 @@ body{
     background-color:rgb(197, 165, 24);
   }
   #menu ul li {
-
     margin:1%;
     padding:1%;
-    
   }
   
   #menu ul a {

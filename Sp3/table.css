@@ -1,0 +1,9 @@
+table,
+      td,
+      th {
+        border: 100% solid #1d243d;
+        outline: solid 1px;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+      }

@@ -1,0 +1,31 @@
+  .texto{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+  }
+  body{
+   background-image: url("pokemon-magikarp.gif");
+   background-size: 100% 100%;
+   background-attachment: scroll;
+   background-repeat: no-repeat;
+  }
+  .column{
+      column-count: 3;
+      column-gap: 15%;
+      column-span: all;
+  }
+  .mapa{
+    text-align: center;
+
+  }
+  .button:hover {
+    background-color: #5669af;
+  color: white;
+  }
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+

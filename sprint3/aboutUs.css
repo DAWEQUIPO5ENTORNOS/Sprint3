@@ -1,31 +1,27 @@
-/* The grid container */
 .grid-container {
   display: grid;
   grid-template-areas:
     "header header header header header header"
     "left left middle middle right right"
     "footer footer footer footer footer footer";
-  /* grid-column-gap: 10px; - if you want gap between the columns */
+
 }
 
 .left,
 .middle,
 .right {
   padding: 10%;
-  height: 30%; /* Should be removed. Only for demonstration */
+  height: 30%; 
 }
 
-/* Style the left column */
 .left {
   grid-area: left;
 }
 
-/* Style the middle column */
 .middle {
   grid-area: middle;
 }
 
-/* Style the right column */
 .right {
   grid-area: right;
 }
@@ -119,7 +115,8 @@
     img {
       border-radius: 8px;
         width: 50%;
-        height: auto;
+        height: 50%;
+  
         margin-bottom: 2%;
         margin-top: 1%;
       }
