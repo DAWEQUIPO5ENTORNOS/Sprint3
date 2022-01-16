@@ -37,5 +37,27 @@
     width: 100%;
     height: 100%;
   }
-  
+  table,
+  td,
+  th {
+    border: 100% solid #1d243d;
+    outline: solid 1px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  #bordeRedondo {
+    border-radius: 0px 0px 30px 5px;
+    background: white;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  #borderbottom {
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #1d243d;
+    padding: 10px;
+  }
+
   

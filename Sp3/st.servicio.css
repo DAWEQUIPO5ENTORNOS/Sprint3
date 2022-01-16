@@ -1,13 +1,4 @@
-.header{
-  color: white;
-  text-align: center;
-  height: 20%;
-  font-size: 150%;
-  font-family:"Georgia", "Georgia", Helvetica, Arial, sans-serif;
-  padding: 0.00001%;
-  margin-bottom: 3%;
-}
-  
+
   body{
    background-image: url(tangela.jpg);
    background-color: black;
@@ -15,12 +6,6 @@
    background-attachment: scroll;
    background-repeat: no-repeat;
   }
-  .column{
-      column-count: 3;
-      column-gap: 15%;
-      column-span: all;
-  }
-  
   .texto{
     /*color:rgb(229, 233, 30);*/
     color: rgb(255, 255, 255);
@@ -31,52 +16,7 @@
     letter-spacing:10%;
     text-align: center;
   }
-  /*@media screen and (max-width: 992px) {
-      .column {
-        width: 50%;
-      }
-    }*/
-    #menu {
-      text-align: center;
-      height: 20%;  
-      width: 100%;
-    }
-    
-    #menu ul {
-      list-style:none;
-      margin:0;
-      padding:0;
-      list-style-type: none;
-      background-color:rgb(197, 165, 24);
-    }
-    #menu ul li {
-  
-      margin:1%;
-      padding:1%;
-      
-    }
-    
-    #menu ul a {
-      color:#fff;
-      text-decoration:none;
-      font-weight:20%;
-      font-size:100%;
-      font-family:"Georgia", "Georgia", Helvetica, Arial, sans-serif;
-      text-transform:uppercase;
-      letter-spacing:10%;
-    }
-   
-    #menu ul li:hover {
-      background:rgb(10, 102, 133) ;
-      padding: 1%;
-    }
-    /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
-      .column {
-        display: inline;
-        width: 100%;
-      }
-    }
+
     img {
       border-radius: 8px;
         width: 130px;
@@ -89,40 +29,6 @@
       footer{
         text-align: center;
       }
-      table,
-        td,
-        th {
-          border: 100% solid #1d243d;
-          outline: solid 1px;
-          margin: auto;
-          padding: 20px;
-          text-align: center;
-        }
-        #bordeRedondo {
-          border-radius: 0px 0px 30px 5px;
-          background: #385ab9;
-          padding: 20px;
-          width: 200px;
-          height: 150px;
-        }
-        #borderbottom {
-          border-bottom-width: thin;
-          border-bottom-style: solid;
-          border-bottom-color: #1d243d;
-          padding: 10px;
-        }
-        h1 {
-          border: 0.1px solid #c1caec;
-          outline: #1d243d solid 2px;
-          margin: auto;
-          padding: 20px;
-          text-align: center;
-          border-radius: 15px 15px 15px 15px;
-          background: #385ab9;
-          padding: 10px;
-          width: 100%;
-          height: 100%;
-  
-        }
+
 
     
