@@ -44,6 +44,16 @@
         display: inline;
         width: 100%;
       }
+      .grid-container {
+        display: inline;
+        grid-template-areas:
+          "header "
+          "left"
+          "middle"
+          "right"
+          "footer ";
+      
+      }
     }
     img {
       border-radius: 8px;
